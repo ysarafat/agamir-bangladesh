@@ -1,0 +1,6 @@
+.bg_banner {
+  background-image: url("../../assets/image/4th.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
