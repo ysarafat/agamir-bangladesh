@@ -102,7 +102,7 @@ function Navbar() {
                                             : 'text-[#161616] hover:text-primary'
                                     }
                                 >
-                                    Our Project
+                                    Our Mission
                                 </NavLink>
                             </li>
                             <li className="mb-1">

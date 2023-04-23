@@ -1,11 +1,13 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
+import './Home.css';
+import JoinUs from './JoinUs/JoinUs';
 
 function Home() {
     return (
         <div>
             <Banner />
-            <h1>This is home page</h1>
+            <JoinUs />
         </div>
     );
 }
