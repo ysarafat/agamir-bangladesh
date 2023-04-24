@@ -15,7 +15,11 @@ function JoinUs() {
                 Thank you for being a part of our community or group with a good cause.
             </p>
             <div className="flex justify-center flex-col lg:flex-row gap-5 text-center mt-8">
-                <div className=" bg-[#F9F9FF] p-6 pt-0 rounded-lg drop-shadow-lg ">
+                <div
+                    className=" bg-[#F9F9FF] p-6 pt-0 rounded-lg drop-shadow-lg "
+                    data-aos="fade-up-right"
+                    data-aos-duration="1000"
+                >
                     <Lottie
                         className="max-w-[500px] max-h-[300px] lg:h-[300px]"
                         animationData={donationBox}
@@ -30,7 +34,11 @@ function JoinUs() {
                         Make a donate
                     </button> */}
                 </div>
-                <div className=" bg-[#F9F9FF] p-6 pt-0 rounded-lg drop-shadow-lg ">
+                <div
+                    className=" bg-[#F9F9FF] p-6 pt-0 rounded-lg drop-shadow-lg "
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                >
                     <Lottie
                         className="max-w-[500px] max-h-[300px] lg:h-[300px]"
                         animationData={VOLUNTEER}
@@ -45,7 +53,11 @@ function JoinUs() {
                         Make a donate
                     </button> */}
                 </div>
-                <div className=" bg-[#F9F9FF] p-6 pt-0 rounded-lg drop-shadow-lg ">
+                <div
+                    className=" bg-[#F9F9FF] p-6 pt-0 rounded-lg drop-shadow-lg "
+                    data-aos="fade-up-left"
+                    data-aos-duration="1000"
+                >
                     <Lottie
                         className="max-w-[500px] max-h-[300px] lg:h-[300px]"
                         animationData={donationBox}

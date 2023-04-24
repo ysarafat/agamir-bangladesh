@@ -9,7 +9,7 @@ function Banner() {
     return (
         <div className="bg_banner w-full ">
             <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-10 container mx-auto px-4 py-10">
-                <div className="lg:w-1/2">
+                <div className="lg:w-1/2" data-aos="fade-right" data-aos-duration="1000">
                     <h1 className="text-3xl md:text-5xl lg:text-6xl text-white	 uppercase font-bold">
                         Join our mission for a better Bangladesh
                     </h1>
@@ -22,7 +22,7 @@ function Banner() {
                         Donate <BsArrowRightShort style={{ fontSize: 30 }} />
                     </button>
                 </div>
-                <div className=" max-w-[600px]">
+                <div className=" max-w-[600px]" data-aos="fade-left" data-aos-duration="1000">
                     <Lottie animationData={math} loop />
                 </div>
             </div>
