@@ -6,7 +6,10 @@ import VOLUNTEER from '../../../assets/Lottie/VOLUNTEER.json';
 function JoinUs() {
     return (
         <div className="mt-16 container mx-auto px-4">
-            <h1 className="heading-text">Join Us</h1>
+            <div className="mb-4 ">
+                <h1 className="heading-text">Join Us</h1>
+                <div className="border-4 border-slate-400 w-16 mx-auto rounded-lg mt-2" />
+            </div>
 
             <p className="sub_title">
                 Thank you for being a part of our community or group with a good cause.

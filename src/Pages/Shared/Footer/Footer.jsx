@@ -17,16 +17,16 @@ function Footer() {
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/">OUR MISSIONS</Link>
+                            <Link to="/">Our Mission</Link>
                         </li>
                         <li>
-                            <Link to="/">ABOUT US</Link>
+                            <Link to="/">About us</Link>
                         </li>
                         <li>
-                            <Link to="/">CONTACT US</Link>
+                            <Link to="/">Contact us</Link>
                         </li>
                         <li>
-                            <Link to="/">ONNESHON PLUS</Link>
+                            <Link to="/">Onnesion Plus</Link>
                         </li>
                     </ul>
                 </div>
