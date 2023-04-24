@@ -17,7 +17,7 @@ function JoinUs() {
             <div className="flex justify-center flex-col lg:flex-row gap-5 text-center mt-8">
                 <div
                     className=" bg-[#F9F9FF] p-6 pt-0 rounded-lg drop-shadow-lg "
-                    data-aos="fade-up-right"
+                    data-aos="fade-down"
                     data-aos-duration="1000"
                 >
                     <Lottie
@@ -55,7 +55,7 @@ function JoinUs() {
                 </div>
                 <div
                     className=" bg-[#F9F9FF] p-6 pt-0 rounded-lg drop-shadow-lg "
-                    data-aos="fade-up-left"
+                    data-aos="fade-down"
                     data-aos-duration="1000"
                 >
                     <Lottie
