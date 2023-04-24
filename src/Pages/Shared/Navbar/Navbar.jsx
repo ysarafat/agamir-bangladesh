@@ -15,7 +15,7 @@ function Navbar() {
                 </Link>
             </div>
             <div className="flex items-center gap-4">
-                <ul className="lg:flex gap-4 text-xl hidden">
+                <ul className="lg:flex gap-4 text-lg hidden">
                     <li className="hover:text-blue-800">
                         <NavLink
                             to="/"
@@ -23,17 +23,17 @@ function Navbar() {
                                 isActive ? 'text-primary' : 'text-[#161616] hover:text-primary'
                             }
                         >
-                            Home
+                            HOME
                         </NavLink>
                     </li>
                     <li className="hover:text-blue-800">
                         <NavLink
-                            to="/Projects"
+                            to="/our-mission"
                             className={({ isActive }) =>
                                 isActive ? 'text-primary' : 'text-[#161616] hover:text-primary'
                             }
                         >
-                            Our Project
+                            OUR MISSION
                         </NavLink>
                     </li>
                     <li>
@@ -43,7 +43,7 @@ function Navbar() {
                                 isActive ? 'text-primary' : 'text-[#161616] hover:text-primary'
                             }
                         >
-                            About Us
+                            ABOUT US
                         </NavLink>
                     </li>
                     <li>
@@ -53,7 +53,7 @@ function Navbar() {
                                 isActive ? 'text-primary' : 'text-[#161616] hover:text-primary'
                             }
                         >
-                            Contact Us
+                            CONTACT US
                         </NavLink>
                     </li>
                     <li>
@@ -63,7 +63,7 @@ function Navbar() {
                                 isActive ? 'text-primary' : 'text-[#161616] hover:text-primary'
                             }
                         >
-                            Donation
+                            DONATION
                         </NavLink>
                     </li>
                 </ul>
@@ -90,19 +90,19 @@ function Navbar() {
                                             : 'text-[#161616] hover:text-primary'
                                     }
                                 >
-                                    Home
+                                    HOME
                                 </NavLink>
                             </li>
                             <li className="mb-1">
                                 <NavLink
-                                    to="/Projects"
+                                    to="/our-mission"
                                     className={({ isActive }) =>
                                         isActive
                                             ? 'text-primary'
                                             : 'text-[#161616] hover:text-primary'
                                     }
                                 >
-                                    Our Mission
+                                    OUR MISSION
                                 </NavLink>
                             </li>
                             <li className="mb-1">
@@ -114,7 +114,7 @@ function Navbar() {
                                             : 'text-[#161616] hover:text-primary'
                                     }
                                 >
-                                    About Us
+                                    ABOUT US
                                 </NavLink>
                             </li>
                             <li className="mb-1">
@@ -126,7 +126,7 @@ function Navbar() {
                                             : 'text-[#161616] hover:text-primary'
                                     }
                                 >
-                                    Contact Us
+                                    CONTACT US
                                 </NavLink>
                             </li>
                             <li className="mb-1">
@@ -138,7 +138,7 @@ function Navbar() {
                                             : 'text-[#161616] hover:text-primary'
                                     }
                                 >
-                                    Donation
+                                    DONATION
                                 </NavLink>
                             </li>
                         </ul>
