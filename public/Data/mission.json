@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "icon": "../Images/mortarboard.png",
+    "title": "Education",
+    "s_description": "We believe that education should be accessible to everyone, regardless of their background or financial situation."
+  },
+  {
+    "id": 1,
+    "icon": "../Images/plant.png",
+    "title": "tree planting",
+    "s_description": "Joining the tree planting initiative can also offer personal benefits such as a sense of accomplishment, improved mental and physical health, and the opportunity to connect with nature."
+  },
+  {
+    "id": 2,
+    "icon": "../Images/first-aid-kit.png",
+    "title": "Medical assistance",
+    "s_description": "Medical support can take many forms, including providing health care at local clinics, participating in medical missions, volunteering at hospitals or medical facilities, or fundraising for medical aid organizations."
+  }
+]

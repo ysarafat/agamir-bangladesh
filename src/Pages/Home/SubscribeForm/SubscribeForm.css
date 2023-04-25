@@ -1,10 +1,10 @@
-.bg_banner {
+.bg_SubscribeForm {
   background-image: linear-gradient(
       360deg,
       hsla(0, 0%, 0%, 0.301) 0%,
       rgba(0, 0, 0, 0.733) 100%
     ),
-    url(../../assets/image/bg-3rd.jpg);
+    url("https://images.pexels.com/photos/5206249/pexels-photo-5206249.jpeg?auto=compress&cs=tinysrgb&w=1600");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
